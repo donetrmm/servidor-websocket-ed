@@ -5,7 +5,7 @@ FROM node:18.16.0
 WORKDIR /app
 
 # Copia los archivos de la aplicación al contenedor
-COPY ./api-payment-ed ./
+COPY ./servidor-websocket-ed ./
 
 # Instala las dependencias
 RUN npm install
