@@ -11,7 +11,7 @@ COPY ./servidor-websocket-ed ./
 RUN npm install
 
 # Expone el puerto 3000
-EXPOSE 80:3000
+EXPOSE 3000
 
 # Comando para iniciar la aplicación
 CMD ["npm", "start"]
